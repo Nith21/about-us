@@ -98,36 +98,42 @@ const About = () => {
               save time to improve efficiency of Campus.
             </p>
 
-            <div className=" logos-column">
-              <img
-                src={InstitutionLogo}
-                alt="Institution-Logo"
-                className="nstitution-logo"
-              />
-              <img src={UsersLogo} alt="Users-Logo" className="user-logo" />
-              <img
-                src={ExperienceLogo}
-                alt="Experience-Logo"
-                className="experience-logo"
-              />
-              <img src={TeamLogo} alt="Team-Logo" className="team-logo" />
-              <p className="institution-text mt-2">
-                {" "}
-                <b> 100+ </b> <br /> Institutions{" "}
-              </p>
-              <p className="usercount-text">
-                {" "}
-                <b> 10+ </b> <br /> Thousand Users{" "}
-              </p>
-              <p className="experience-text">
-                {" "}
-                <b className=""> 3+ </b> <br /> Years of Experience{" "}
-              </p>
-              <p className="team-strength">
-                {" "}
-                <b> 10+ </b> <br /> Team Strength{" "}
-              </p>
+            <div className="Logo">
+            <div className="timeline-grid ms-3 ">
+                <div className="timeline-icon">
+                  <img src={InstitutionLogo} alt="Institution-Logo" className="bg-dark"  />
+                </div>
+                <hr />
+                <div className="timeline-desc mt-3">
+                  <strong> 100+ </strong>
+                  <p className="Institution-Logo-Text" > Institutions  </p>
+                </div>
+              </div>
+
+              <div className="timeline-grid ms-3 ">
+                <div className="timeline-icon">
+                  <img src={UsersLogo} alt="User-Logo" className="bg-dark"  />
+                </div>
+                <hr />
+                <div className="timeline-desc mt-3">
+                  <strong> 10+ </strong>
+                  <p className="Institution-Logo-Text" > Thousand Users  </p>
+                </div>
+              </div>
+
+              <div className="timeline-grid ms-3 ">
+                <div className="timeline-icon">
+                  <img src={ExperienceLogo} alt="Experience-Logo" className="bg-dark"  />
+                </div>
+                <hr />
+                <div className="timeline-desc mt-3">
+                  <strong> 10+ </strong>
+                  <p className="Institution-Logo-Text" > Thousand Users  </p>
+                </div>
+              </div>
             </div>
+
+            
           </div>
           <div className="col image8-column">
             <img src={Image8} alt="Error-Image" className="image-8" />

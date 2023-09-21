@@ -85,18 +85,17 @@
   }
 }
 
-.logos-column {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  /* justify-content: center; */
-  /* column-gap: 200px; */
-  margin-top: 60px;
+.Institution-Logo-Text{
+  font-size: large;
 }
-.institution-span {
-  font-weight: bolder;
-  /* position: absolute; */
-  left: 45px;
-  margin-top: 7px;
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+  .Logo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
 }
 .management-heading {
   font-weight: bolder;
